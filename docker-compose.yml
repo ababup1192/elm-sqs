@@ -12,4 +12,5 @@ services:
       - DOCKER_HOST=unix:///var/run/docker.sock
     volumes:
       - ./localstack:/docker-entrypoint-initaws.d
+      - ./localstack/queue-info:/queue-info
 
