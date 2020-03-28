@@ -1,0 +1,15 @@
+version: "3"
+services:
+  localstack:
+    container_name: localstack
+    image: localstack/localstack
+    ports:
+      - "4567-4582:4567-4582"
+    environment:
+      - DEFAULT_REGION=ap-northeast-1
+      - SERVICES=sqs,sns
+      - DATA_DIR=${DATA_DIR- }
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    volumes:
+      - ./localstack:/docker-entrypoint-initaws.d
+
