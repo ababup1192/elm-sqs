@@ -7,6 +7,8 @@ import Html.Events exposing (onClick, onInput)
 import Http
 import Json.Decode as JD
 import Json.Encode as JE
+import Task
+import Time
 
 
 
@@ -59,12 +61,15 @@ sendMessage content =
 
 
 type alias Model =
-    { content : String, sentMessageList : List SendMessageResponse }
+    { timezone : Time.Zone
+    , content : String
+    , sentMessageList : List SendMessageResponse
+    }
 
 
 init : () -> ( Model, Cmd Msg )
 init _ =
-    ( { content = "", sentMessageList = [] }, Cmd.none )
+    ( { content = "", sentMessageList = [], timezone = Time.utc }, Task.perform GotTimezone Time.here )
 
 
 
@@ -72,18 +77,23 @@ init _ =
 
 
 type Msg
-    = UpdateContent String
+    = GotTimezone Time.Zone
+    | UpdateContent String
     | SendMessage
+    | SendMessageSubscribe Time.Posix
     | GotSendMessageResponse (Result Http.Error SendMessageResponse)
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     let
-        { content, sentMessageList } =
+        { content, sentMessageList, timezone } =
             model
     in
     case msg of
+        GotTimezone tz ->
+            ( { model | timezone = tz }, Cmd.none )
+
         UpdateContent c ->
             ( { model | content = c }, Cmd.none )
 
@@ -94,10 +104,19 @@ update msg model =
             else
                 ( model, Cmd.none )
 
+        SendMessageSubscribe posix ->
+            ( model
+            , sendMessage <|
+                "subscribe < "
+                    ++ String.fromInt (Time.toSecond timezone posix)
+                    ++ ":"
+                    ++ String.fromInt (Time.toMillis timezone posix)
+            )
+
         GotSendMessageResponse result ->
             case result of
                 Ok sentMessageResponse ->
-                    ( { model | sentMessageList = sentMessageResponse :: sentMessageList }, Cmd.none )
+                    ( { model | sentMessageList = sentMessageResponse :: sentMessageList, content = "" }, Cmd.none )
 
                 Err _ ->
                     ( model, Cmd.none )
@@ -127,4 +146,4 @@ view model =
 
 subscriptions : Model -> Sub Msg
 subscriptions _ =
-    Sub.none
+    Time.every 500 SendMessageSubscribe

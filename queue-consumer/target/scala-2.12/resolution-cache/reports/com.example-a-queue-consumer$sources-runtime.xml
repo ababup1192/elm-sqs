@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.example"
+		module="a-queue-consumer$sources"
+		revision="0.1.0-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20200329173943"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204191556" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2669" time="0" location="/Users/abab/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="UNKNOWN"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="0.1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1020924" time="0" location="/Users/abab/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="sqs">
+			<revision name="2.11.3" status="release" pubdate="20200327040054" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="25528" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/sqs/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/sqs/2.11.3/sqs-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sqs" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="510754" time="988" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/sqs/srcs/sqs-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/sqs/2.11.3/sqs-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="aws-query-protocol">
+			<revision name="2.11.3" status="release" pubdate="20200327040039" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="24958" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/aws-query-protocol/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-query-protocol/2.11.3/aws-query-protocol-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aws-query-protocol" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="39049" time="636" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/aws-query-protocol/srcs/aws-query-protocol-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-query-protocol/2.11.3/aws-query-protocol-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="aws-core">
+			<revision name="2.11.3" status="release" pubdate="20200327040042" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="25551" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/aws-core/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-core/2.11.3/aws-core-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aws-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="61134" time="544" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/aws-core/srcs/aws-core-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/aws-core/2.11.3/aws-core-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="auth">
+			<revision name="2.11.3" status="release" pubdate="20200327040110" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="25141" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/auth/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/auth/2.11.3/auth-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="auth" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86666" time="584" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/auth/srcs/auth-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/auth/2.11.3/auth-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.eventstream" name="eventstream">
+			<revision name="1.0.1" status="release" pubdate="20190502091346" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/awslabs/aws-eventstream-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="3447" time="0" location="/Users/abab/.ivy2/cache/software.amazon.eventstream/eventstream/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="eventstream" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="16020" time="0" location="/Users/abab/.ivy2/cache/software.amazon.eventstream/eventstream/srcs/eventstream-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/eventstream/eventstream/1.0.1/eventstream-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="regions">
+			<revision name="2.11.3" status="release" pubdate="20200327040022" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="23835" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/regions/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/regions/2.11.3/regions-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="regions" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="295927" time="889" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/regions/srcs/regions-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/regions/2.11.3/regions-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="protocol-core">
+			<revision name="2.11.3" status="release" pubdate="20200327040052" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="24634" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/protocol-core/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/protocol-core/2.11.3/protocol-core-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protocol-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17431" time="571" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/protocol-core/srcs/protocol-core-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/protocol-core/2.11.3/protocol-core-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="sdk-core">
+			<revision name="2.11.3" status="release" pubdate="20200327040018" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="26225" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/sdk-core/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/sdk-core/2.11.3/sdk-core-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sdk-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="352533" time="845" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/sdk-core/srcs/sdk-core-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/sdk-core/2.11.3/sdk-core-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="apache-client">
+			<revision name="2.11.3" status="release" pubdate="20200327040129" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="23600" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/apache-client/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/apache-client/2.11.3/apache-client-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="apache-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="41859" time="663" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/apache-client/srcs/apache-client-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/apache-client/2.11.3/apache-client-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpclient">
+			<revision name="4.5.9" status="release" pubdate="20190607222515" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-client" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11456" time="0" location="/Users/abab/.ivy2/cache/org.apache.httpcomponents/httpclient/ivy-4.5.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.5.9" rev-constraint-default="4.5.9" rev-constraint-dynamic="4.5.9" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="731311" time="0" location="/Users/abab/.ivy2/cache/org.apache.httpcomponents/httpclient/srcs/httpclient-4.5.9-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.11" status="release" pubdate="20171017235430" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12632" time="0" location="/Users/abab/.ivy2/cache/commons-codec/commons-codec/ivy-1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="1.11" rev-constraint-default="1.11" rev-constraint-dynamic="1.11" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-codec" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="342809" time="0" location="/Users/abab/.ivy2/cache/commons-codec/commons-codec/srcs/commons-codec-1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.httpcomponents" name="httpcore">
+			<revision name="4.4.11" status="release" pubdate="20190115192425" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hc.apache.org/httpcomponents-core-ga" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9311" time="0" location="/Users/abab/.ivy2/cache/org.apache.httpcomponents/httpcore/ivy-4.4.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.4.11" rev-constraint-default="4.4.11" rev-constraint-dynamic="4.4.11" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="httpcore" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="408591" time="0" location="/Users/abab/.ivy2/cache/org.apache.httpcomponents/httpcore/srcs/httpcore-4.4.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.10.0" status="release" pubdate="20190926122300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="24410" time="0" location="/Users/abab/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1039017" time="1390" location="/Users/abab/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.10.0" status="release" pubdate="20190927111638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8050" time="0" location="/Users/abab/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="72080" time="689" location="/Users/abab/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/srcs/jackson-annotations-2.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.0/jackson-annotations-2.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.10.0" status="release" pubdate="20190926120304" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="23649" time="0" location="/Users/abab/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/ivy-2.10.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.10.0" rev-constraint-default="2.10.0" rev-constraint-dynamic="2.10.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="364532" time="839" location="/Users/abab/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/srcs/jackson-core-2.10.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.0/jackson-core-2.10.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="profiles">
+			<revision name="2.11.3" status="release" pubdate="20200327040029" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://aws.amazon.com/sdkforjava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="22907" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/profiles/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/profiles/2.11.3/profiles-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="profiles" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="16337" time="622" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/profiles/srcs/profiles-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/profiles/2.11.3/profiles-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="netty-nio-client">
+			<revision name="2.11.3" status="release" pubdate="20200327040030" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="25995" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/netty-nio-client/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/netty-nio-client/2.11.3/netty-nio-client-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-nio-client" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="140292" time="1384" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/netty-nio-client/srcs/netty-nio-client-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/netty-nio-client/2.11.3/netty-nio-client-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.netty" name="netty-reactive-streams-http">
+			<revision name="2.0.4" status="release" pubdate="20191119124707" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5483" time="0" location="/Users/abab/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.4/netty-reactive-streams-http-2.0.4.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-reactive-streams-http" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="17894" time="558" location="/Users/abab/.ivy2/cache/com.typesafe.netty/netty-reactive-streams-http/srcs/netty-reactive-streams-http-2.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams-http/2.0.4/netty-reactive-streams-http-2.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.netty" name="netty-reactive-streams">
+			<revision name="2.0.4" status="release" pubdate="20191119124710" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5336" time="0" location="/Users/abab/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-reactive-streams" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="8397" time="610" location="/Users/abab/.ivy2/cache/com.typesafe.netty/netty-reactive-streams/srcs/netty-reactive-streams-2.0.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-epoll">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228161055" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19806" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-transport-native-epoll/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.46.Final/netty-transport-native-epoll-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-transport-native-epoll" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="86988" time="676" location="/Users/abab/.ivy2/cache/io.netty/netty-transport-native-epoll/srcs/netty-transport-native-epoll-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.46.Final/netty-transport-native-epoll-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-unix-common">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228180020" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18919" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-transport-native-unix-common/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.46.Final/netty-transport-native-unix-common-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-transport-native-unix-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="55501" time="600" location="/Users/abab/.ivy2/cache/io.netty/netty-transport-native-unix-common/srcs/netty-transport-native-unix-common-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.46.Final/netty-transport-native-unix-common-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http2">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154948" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18598" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-codec-http2/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.46.Final/netty-codec-http2-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec-http2" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="299139" time="761" location="/Users/abab/.ivy2/cache/io.netty/netty-codec-http2/srcs/netty-codec-http2-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.46.Final/netty-codec-http2-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154902" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18327" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-codec-http/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.46.Final/netty-codec-http-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="456825" time="1028" location="/Users/abab/.ivy2/cache/io.netty/netty-codec-http/srcs/netty-codec-http-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.46.Final/netty-codec-http-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154830" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19549" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-handler/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.46.Final/netty-handler-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-handler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="305121" time="779" location="/Users/abab/.ivy2/cache/io.netty/netty-handler/srcs/netty-handler-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.46.Final/netty-handler-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="http-client-spi">
+			<revision name="2.11.3" status="release" pubdate="20200327040028" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="22318" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/http-client-spi/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/http-client-spi/2.11.3/http-client-spi-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="http-client-spi" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="49417" time="664" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/http-client-spi/srcs/http-client-spi-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/http-client-spi/2.11.3/http-client-spi-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="utils">
+			<revision name="2.11.3" status="release" pubdate="20200327040047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="22626" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/utils/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.11.3/utils-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="utils" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="80138" time="631" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/utils/srcs/utils-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/utils/2.11.3/utils-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.28" status="release" pubdate="20190810172721" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5347" time="0" location="/Users/abab/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.28.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="1.7.28" rev-constraint-default="1.7.28" rev-constraint-dynamic="1.7.28" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="58095" time="589" location="/Users/abab/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.28-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.28/slf4j-api-1.7.28-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.2" status="release" pubdate="20171219050638" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/abab/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="/Users/abab/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="software.amazon.awssdk" name="annotations">
+			<revision name="2.11.3" status="release" pubdate="20200327040131" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache License, Version 2.0" url="https://aws.amazon.com/apache2.0"/>
+				<metadata-artifact status="no" details="" size="22194" time="0" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/annotations/ivy-2.11.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/software/amazon/awssdk/annotations/2.11.3/annotations-2.11.3.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="2.11.3" rev-constraint-default="2.11.3" rev-constraint-dynamic="2.11.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="annotations" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="11427" time="610" location="/Users/abab/.ivy2/cache/software.amazon.awssdk/annotations/srcs/annotations-2.11.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/software/amazon/awssdk/annotations/2.11.3/annotations-2.11.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154416" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19232" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-codec/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.46.Final/netty-codec-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-codec" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="260675" time="709" location="/Users/abab/.ivy2/cache/io.netty/netty-codec/srcs/netty-codec-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.46.Final/netty-codec-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154343" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17916" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-transport/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.46.Final/netty-transport-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-transport" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="316688" time="1062" location="/Users/abab/.ivy2/cache/io.netty/netty-transport/srcs/netty-transport-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.46.Final/netty-transport-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154226" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17619" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-resolver/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.46.Final/netty-resolver-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="24302" time="655" location="/Users/abab/.ivy2/cache/io.netty/netty-resolver/srcs/netty-resolver-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.46.Final/netty-resolver-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154209" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17613" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-buffer/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.46.Final/netty-buffer-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="174697" time="812" location="/Users/abab/.ivy2/cache/io.netty/netty-buffer/srcs/netty-buffer-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.46.Final/netty-buffer-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.46.Final" status="release" pubdate="20200228154108" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="21390" time="0" location="/Users/abab/.ivy2/cache/io.netty/netty-common/ivy-4.1.46.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.46.Final/netty-common-4.1.46.Final.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="4.1.46.Final" rev-constraint-default="4.1.46.Final" rev-constraint-dynamic="4.1.46.Final" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="netty-common" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="551706" time="835" location="/Users/abab/.ivy2/cache/io.netty/netty-common/srcs/netty-common-4.1.46.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.46.Final/netty-common-4.1.46.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-logging" name="commons-logging">
+			<revision name="1.2" status="release" pubdate="20140706031228" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-logging/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11623" time="0" location="/Users/abab/.ivy2/cache/commons-logging/commons-logging/ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.pom"/>
+				<caller organisation="com.example" name="a-queue-consumer$sources" conf="compile, runtime" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="commons-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73295" time="0" location="/Users/abab/.ivy2/cache/commons-logging/commons-logging/srcs/commons-logging-1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

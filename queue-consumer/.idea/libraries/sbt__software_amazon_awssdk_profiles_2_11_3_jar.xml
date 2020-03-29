@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="sbt: software.amazon.awssdk:profiles:2.11.3:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/software.amazon.awssdk/profiles/jars/profiles-2.11.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/software.amazon.awssdk/profiles/srcs/profiles-2.11.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

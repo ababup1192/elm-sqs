@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a5fc19ff-48ee-4b41-9433-015b47050157" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZnNnclRCM4S9UuP8WPjMxlAe6p" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="aqueue-consumer" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/Users/abab/Desktop/elm-sqs/queue-consumer/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="aqueue-consumer-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="2968186469" />
+        <entry key="$PROJECT_DIR$/project/Dependencies.scala" value="3187829316" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3280644262" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../queue-producer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../hrmony-ats-draco/admin-page-backend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../hrmony-ats-draco/async-processors" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../hrmony-ats-draco/public-page-backend" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../hrmony-ats-draco/scalikejdbc-db" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../hrmony-ats-draco/web-api" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../scala-csv-download" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a5fc19ff-48ee-4b41-9433-015b47050157" name="Default Changelist" comment="" />
+      <created>1585471065022</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585471065022</updated>
+      <workItem from="1585471069007" duration="4567000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="961" y="600" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1585471837234">
+      <screen x="0" y="23" width="2048" height="1175" />
+    </state>
+    <state x="961" y="600" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.2048.1175@0.23.2048.1175" timestamp="1585471837234" />
+    <state x="489" y="123" width="1217" height="867" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585474962607">
+      <screen x="0" y="23" width="2048" height="1175" />
+    </state>
+    <state x="489" y="123" width="1217" height="867" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.2048.1175@0.23.2048.1175" timestamp="1585474962607" />
+  </component>
+</project>
