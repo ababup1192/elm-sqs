@@ -13,4 +13,3 @@ services:
     volumes:
       - ./localstack:/docker-entrypoint-initaws.d
       - ./localstack/queue-info:/queue-info
-

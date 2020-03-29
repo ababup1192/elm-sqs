@@ -19,6 +19,7 @@ libraryDependencies ++= Seq(
 
 libraryDependencies += "com.dripower" %% "play-circe" % "2712.0"
 
+libraryDependencies += "software.amazon.awssdk" % "sqs" % "2.11.3"
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "org.ababup1192.controllers._"
 
